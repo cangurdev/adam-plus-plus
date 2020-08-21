@@ -1,0 +1,4 @@
+*.json
+!adam.json
+!cuma.json
+node_modules
