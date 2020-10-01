@@ -24,6 +24,9 @@ client.on('message', msg => {
             let percentage = Math.floor(Math.random()*100)
             msg.reply("Hesaplamalarıma göre %"+percentage+" adamsın");
         }
+        else if (msg.content === "+paris"){
+            msg.reply("Kamyonum çeker 20 ton gönlüm çeker paris hilton");
+        }
     }
     catch(error){
         msg.channel.send("Buralarda bir adam göremedim.")
