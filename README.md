@@ -10,5 +10,5 @@ Adam gibi değil, adam++ bir Discord botu.
 | +yüzde | Bilimsel hesaplamalar yaparak adamlık yüzdenizi söyler |
 
 ## Özellikler
-- 31 adet adamlık sözü
-- 9 adet cuma mesajı
+- 32 adet adamlık sözü
+- 12 adet cuma mesajı
