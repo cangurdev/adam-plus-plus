@@ -12,20 +12,17 @@ client.on('ready', () => {
 client.on('message', msg => {
     try{
         if (msg.content.startsWith("+adamm")) {
-            let word = words[Math.floor(Math.random() * 30)];
+            let word = words[Math.floor(Math.random() * 31)];
             const taggedUser = msg.mentions.users.first();
             msg.channel.send(`<@${taggedUser.id}>`+" "+word);
         }
         else if (msg.content === "+cuma"){
-            let cumaMessage = cuma[Math.floor(Math.random() * 8)];
+            let cumaMessage = cuma[Math.floor(Math.random() * 11)];
             msg.channel.send(""+cumaMessage);
         }
         else if (msg.content === "+yüzde"){
             let percentage = Math.floor(Math.random()*100)
             msg.reply("Hesaplamalarıma göre %"+percentage+" adamsın");
-        }
-        else if (msg.content === "+paris"){
-            msg.reply("Kamyonum çeker 20 ton gönlüm çeker paris hilton");
         }
     }
     catch(error){
