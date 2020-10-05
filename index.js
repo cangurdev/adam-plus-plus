@@ -31,6 +31,20 @@ client.on("message", (msg) => {
     } else if (msg.content === "+nargile") {
       let hookah = nargile[Math.floor(Math.random() * 24)];
       msg.reply(`Bugün ${hookah} aromalı nargile içmelisin `);
+    } else if (msg.content === "+yardım") {
+      const help = new Discord.MessageEmbed()
+        .setTitle("Komutlar")
+        .setColor(0xff0000).setDescription(`
+      **+adamm @kullaniciadi** - Etiketlenen kullanıcının adamlığını över      
+
+       **+cuma** - Cumanızı kutlar                                          
+      
+       **+yüzde** - Bilimsel hesaplamalar yaparak adamlık yüzdenizi söyler   
+      
+       **+nargile** - Bugün hangi nargileyi içeceğinize dair öneride bulunur   
+      
+       **+ısmarla @kullaniciadi** - Etiketlenen kullanıcının adamlığına bir nargile ısmarlar `);
+      msg.reply(help);
     }
   } catch (error) {
     msg.channel.send("Buralarda bir adam göremedim.");
