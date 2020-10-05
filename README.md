@@ -4,13 +4,13 @@ Adam gibi değil, adam++ bir Discord botu.
 
 ## Komutlar
 
-| Komut                  | Açıklama                                               |
-| ---------------------- | ------------------------------------------------------ |
-| +adamm @kullaniciadi   | Etiketlenen kullanıcının adamlığını över               |
-| +cuma                  | Cumanızı kutlar                                        |
-| +yüzde                 | Bilimsel hesaplamalar yaparak adamlık yüzdenizi söyler |
-| +nargile               | Bugün hangi aromalı nargile içeceğinizi belirler       |
-| +ısmarla @kullaniciadi | Etkilenen kullanıcının adamlığına bir nargile ısmarlar |
+| Komut                  | Açıklama                                                 |
+| ---------------------- | -------------------------------------------------------- |
+| +adamm @kullaniciadi   | Etiketlenen kullanıcının adamlığını över                 |
+| +cuma                  | Cumanızı kutlar                                          |
+| +yüzde                 | Bilimsel hesaplamalar yaparak adamlık yüzdenizi söyler   |
+| +nargile               | Bugün hangi nargileyi içeceğinize dair öneride bulunur   |
+| +ısmarla @kullaniciadi | Etiketlenen kullanıcının adamlığına bir nargile ısmarlar |
 
 ## Özellikler
 
