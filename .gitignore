@@ -1,4 +1,5 @@
 *.json
 !adam.json
 !cuma.json
+!nargile.json
 node_modules
