@@ -1,5 +1,3 @@
-*.json
-!adam.json
-!cuma.json
-!nargile.json
+package-lock.json
+config.json
 node_modules

@@ -1,0 +1,24 @@
+{
+  "name": "adam-plus-plus",
+  "version": "1.0.0",
+  "description": "Adam gibi değil, adam++ bir Discord botu.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvngur/adam-plus-plus.git"
+  },
+  "keywords": [],
+  "author": "Can Gür",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvngur/adam-plus-plus/issues"
+  },
+  "homepage": "https://github.com/cvngur/adam-plus-plus#readme"
+}
