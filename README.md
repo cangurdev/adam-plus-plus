@@ -11,6 +11,7 @@ Adam gibi değil, adam++ bir Discord botu.
 | +yüzde                 | Bilimsel hesaplamalar yaparak adamlık yüzdenizi söyler   |
 | +nargile               | Bugün hangi nargileyi içeceğinize dair öneride bulunur   |
 | +ısmarla @kullaniciadi | Etiketlenen kullanıcının adamlığına bir nargile ısmarlar |
+| +yardım                | Kullanılabilecek komutları açıklamalarıyla yazdırır      |
 
 ## Özellikler
 
