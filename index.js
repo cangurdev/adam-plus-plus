@@ -19,7 +19,7 @@ client.on("message", (msg) => {
     } else if (msg.content === "+cuma") {
       let fridayMessage =
         fridayMessages[
-          Math.floor(Math.random() * Object.keys(fridayMessages).length)
+        Math.floor(Math.random() * Object.keys(fridayMessages).length)
         ];
       msg.channel.send("" + fridayMessage);
     } else if (msg.content === "+yüzde") {
@@ -33,10 +33,13 @@ client.on("message", (msg) => {
         `<@${taggedUser.id}> adamlığına bir ${hookah} aromalı nargile söylüyorum `
       );
     } else if (msg.content === "+nargile") {
-      let hookah =
+      let aroma =
         hookahs[Math.floor(Math.random() * Object.keys(hookahs).length)];
-      msg.reply(`Bugün ${hookah} aromalı nargile içmelisin `);
-    } else if (msg.content === "+yardım") {
+      msg.reply(`Bugün ${aroma} aromalı nargile içmelisin `);
+    } else if (msg.content === "+dolar") {
+      msg.reply("Dolarla mı maaş alıyorsun?")
+    }
+    else if (msg.content === "+yardım") {
       const help = new Discord.MessageEmbed()
         .setTitle("Komutlar")
         .setColor(0xff0000).setDescription(`
@@ -48,7 +51,9 @@ client.on("message", (msg) => {
       
        **+nargile** - Bugün hangi nargileyi içeceğinize dair öneride bulunur   
       
-       **+ısmarla @kullaniciadi** - Etiketlenen kullanıcının adamlığına bir nargile ısmarlar `);
+       **+ısmarla @kullaniciadi** - Etiketlenen kullanıcının adamlığına bir nargile ısmarlar 
+       
+       **+dolar** - Güncel dolar kurunu gösterir `);
       msg.reply(help);
     }
   } catch (error) {
