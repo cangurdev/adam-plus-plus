@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const words = require("./adam.json");
 const fridayMessages = require("./cuma.json");
 const hookahs = require("./nargile.json");
-const config = require("./config.json");
 
 const client = new Discord.Client();
 
@@ -61,4 +60,4 @@ client.on("message", (msg) => {
   }
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
