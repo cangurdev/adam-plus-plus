@@ -16,6 +16,7 @@ Adam gibi değil, adam++ bir Discord botu.
 
 ## Özellikler
 
-- 32 adet adamlık sözü
+- 37 adet adamlık sözü
 - 12 adet cuma mesajı
 - 34 adet nargile çeşidi
+- 8 adet övgü sözü
